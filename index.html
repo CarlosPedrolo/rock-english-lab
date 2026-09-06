@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock English Lab 🎧</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #1e1e1e;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        h1 { text-align: center; color: #f39c12; margin-bottom: 5px; }
+        p.subtitle { text-align: center; color: #888; margin-top: 0; }
+        
+        .player-card {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        audio { width: 100%; margin-bottom: 15px; }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        button {
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        button:hover { background: #f39c12; color: #121212; border-color: #f39c12; }
+        
+        .lesson-area {
+            background: #181818;
+            padding: 20px;
+            border-left: 4px solid #f39c12;
+            border-radius: 4px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Rock English Lab 🎧</h1>
+    <p class="subtitle">Treino de Connected Speech & Shadowing</p>
+
+    <div class="player-card">
+        <audio id="audioPlayer" controls>
+            <source src="audios/musica.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+        <div class="controls">
+            <button onclick="rewind(5)">⏪ -5s</button>
+            <button onclick="setSpeed(0.75)">0.75x (Lento)</button>
+            <button onclick="setSpeed(1.0)">1.0x (Normal)</button>
+            <button onclick="toggleLoop()" id="loopBtn">🔁 Loop: OFF</button>
+        </div>
+    </div>
+
+    <div class="lesson-area">
+        <h2>Área de Estudo</h2>
+        <p>Acompanhe o texto mapeado no arquivo da pasta <code>aulas/</code> durante o treino.</p>
+    </div>
+</div>
+
+<script>
+    const player = document.getElementById('audioPlayer');
+    const loopBtn = document.getElementById('loopBtn');
+
+    function rewind(seconds) {
+        player.currentTime = Math.max(0, player.currentTime - seconds);
+    }
+
+    function setSpeed(speed) {
+        player.playbackRate = speed;
+    }
+
+    function toggleLoop() {
+        player.loop = !player.loop;
+        loopBtn.innerText = player.loop ? "🔁 Loop: ON" : "🔁 Loop: OFF";
+        loopBtn.style.background = player.loop ? "#f39c12" : "#333";
+        loopBtn.style.color = player.loop ? "#121212" : "#fff";
+    }
+</script>
+
+</body>
+</html>
