@@ -1,37 +1,46 @@
 # 🎧 Aula 1: Man in the Box – Alice in Chains
 
 - **Álbum:** Facelift (1990)
-- **Foco de Treino:** Connected Speech (redução de consoantes e junção de vogais) + Flap T.
+- **Foco de Treino:** Connected Speech, Redução do "them" e Flap T.
 
 ---
 
-## 🎯 Mapeamento de Connected Speech (Verso 1)
+## 🎯 Mapeamento Prático de Som (Sua Percepção Auditiva)
 
-> 💡 **Legenda:** 
-> - `_` = Palavras conectadas (som contínuo)
-> - `(t)` = Flap T (som suave de "r" em português)
+Nas sessões de escuta e Shadowing, estes foram os blocos contínuos de som identificados:
 
-### Trecho 1:
+### 1. Bloco 1 (Verso & Refrão)
 - **Letra Original:** "Feed my eyes, can you sew them shut?"
-- **Como se Canta:** `Feed_my_eyes, can_ya_sew_em_shut?`
-- **Conexão Chave:** O "them" perde o som de "th" na fala rápida e vira apenas `em` (`sew_em`). O "you" vira um `ya` fraco.
+- **Como Soa na Prática:** `Feed-mai-yaiz... canyasoudenshut`
+- **Fenômeno:** 
+  - `can you` $\rightarrow$ `canya` (redução da vogal).
+  - `sew them` $\rightarrow$ o "th" vira som de "d" estalado (`souden`).
+  - A frase inteira é dita sem pausas para respirar.
 
-### Trecho 2:
+### 2. Bloco 2
 - **Letra Original:** "Jesus Christ, deny your maker"
-- **Como se Canta:** `Je-sus_Christ, de-ny_yer_ma-ker`
-- **Conexão Chave:** "your" perde o som forte de "ó-r" e vira `yer` (som reduzido).
+- **Como Soa na Prática:** `jesus-christ-denai-yer-maker`
+- **Fenômeno:** `your` perde o som forte de "iór" e vira um `yer` bem curto e leve.
+
+### 3. Bloco 3
+- **Letra Original:** "He who tries will be wasted"
+- **Como Soa na Prática:** `Huutrais wilbiweisred`
+- **Fenômeno:** 
+  - `will be` cola direto em `wasted` (`wilbiweis...`).
+  - O "t" de `wasted` ganha o som suave de Flap T (`weisred`).
 
 ---
 
-## 🧩 Chunks & Vocabulário Relevante
+## 🧩 Chunks Importantes
 
-- **"Sew them shut"** $\rightarrow$ *Costurá-los para fechar.* (Chunk de ação completa; não traduza palavra por palavra).
-- **"Deny your maker"** $\rightarrow$ *Negar seu criador.*
+- **Sew them shut:** Costurá-los para fechar.
+- **Deny your maker:** Negar seu criador.
+- **Will be wasted:** Serão desperdiçados / destruídos.
 
 ---
 
-## 🏋️ Roteiro de Shadowing
+## 🏋️ Progresso de Treino
 
-1. **0.75x Speed:** Abra o `index.html` no seu navegador, ajuste a velocidade para `0.75x` e ative o `Loop`.
-2. **Exhale & Connect:** Note como o Layne emenda as palavras mantendo a sustentação das vogais (ex: *Feed_my_eyes*).
-3. **1.0x Speed:** Assim que conseguir cantar junto sem tropeçar na respiração a 0.75x, suba para a velocidade normal.
+- [x] Escuta atenta a 0.75x (Lento) com Loop ativado.
+- [x] Reconhecimento dos blocos de som reais sem tradução mental.
+- [x] Shadowing acompanhado a 1.0x (Velocidade normal).
